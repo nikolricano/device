@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'pages/index'
+
+  get 'pages/uno'
+
+  get 'pages/dos'
+
+  get 'pages/tres'
+
+  get 'pages/cuatro'
+
+  root  'pages#index'
+
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
